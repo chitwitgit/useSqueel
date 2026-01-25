@@ -545,9 +545,14 @@ export default function LandingPage() {
               <div className="flex items-center bg-slate-900 border border-slate-700 rounded-lg px-4 py-3 font-mono text-sm text-slate-300 shadow-lg">
                 <span className="text-purple-400 mr-2">$</span> npm install use-squeel
               </div>
-              <button className="px-6 py-3 bg-white text-black font-bold rounded-lg hover:bg-slate-200 transition-colors shadow-[0_0_20px_-5px_rgba(255,255,255,0.3)]">
+              <a 
+                href="https://github.com/chitwitgit/useSqueel/blob/main/packages/useSqueel/GUIDE.md"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-6 py-3 bg-white text-black font-bold rounded-lg hover:bg-slate-200 transition-colors shadow-[0_0_20px_-5px_rgba(255,255,255,0.3)]"
+              >
                 Read the Docs
-              </button>
+              </a>
             </div>
           </div>
         </div>
